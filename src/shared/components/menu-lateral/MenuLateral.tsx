@@ -1,6 +1,6 @@
 import { Avatar, Divider, Drawer, Icon, List, ListItemButton, ListItemIcon, ListItemText, useMediaQuery, useTheme } from '@mui/material';
 import { useMatch, useNavigate, useResolvedPath } from 'react-router-dom';
-import { Box } from '@mui/system';
+import { Box } from '@mui/material';
 
 import { useAppThemeContext, useDrawerContext } from '../../contexts';
 
@@ -33,7 +33,7 @@ const ListItemLink: React.FC<IListItemLinkProps> = ({ to, icon, label, onClick }
 };
 
 interface IMenuLateral {
-    children: React.ReactNode
+  children: React.ReactNode
 }
 export const MenuLateral: React.FC<IMenuLateral> = ({ children }) => {
   const theme = useTheme();
@@ -50,7 +50,7 @@ export const MenuLateral: React.FC<IMenuLateral> = ({ children }) => {
           <Box width="100%" height={theme.spacing(20)} display="flex" alignItems="center" justifyContent="center">
             <Avatar
               sx={{ height: theme.spacing(12), width: theme.spacing(12) }}
-              src="https://yt3.ggpht.com/grfYgQadT8iNg9WPb-jkrKB-9224y_DBDXAOtV4Yt7cyQmtR47J_453uveQOTDsp_dRSH851TMM=s108-c-k-c0x00ffffff-no-rj"
+              src="https://github.com/FelipeTofollo.png"
             />
           </Box>
 
